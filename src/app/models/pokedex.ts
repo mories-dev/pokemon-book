@@ -1,4 +1,5 @@
-export const POKEMONS = [{
+import { pokemonsType } from './../types/pokemons';
+export const POKEMONS: pokemonsType = [{
     "id": 1,
     "name": {
       "english": "Bulbasaur",
