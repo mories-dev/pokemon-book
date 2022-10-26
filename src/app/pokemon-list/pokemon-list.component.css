@@ -1,0 +1,12 @@
+.page {
+    padding: 32px;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+mat-card {
+    text-align: center;
+    background-color: antiquewhite;
+    color: black;
+}
