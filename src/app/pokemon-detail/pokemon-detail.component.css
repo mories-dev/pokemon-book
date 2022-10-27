@@ -1,7 +1,19 @@
 .pokemon {
     max-width: 400px;
     text-align: center;
-    margin: 24px auto;
     background-color: antiquewhite;
     color: black;
+}
+
+.chart {
+    width: 500px;
+    text-align: center;
+    background-color: antiquewhite;
+    color: black;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 300px;
 }

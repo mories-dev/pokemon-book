@@ -8,6 +8,7 @@ import { PokemonListComponent } from './pokemon-list/pokemon-list.component';
 import {MatCardModule} from '@angular/material/card';
 import { PokemonDetailComponent } from './pokemon-detail/pokemon-detail.component';
 import { TypePipe } from './pipes/type.pipe';
+import { NgChartsModule } from 'ng2-charts';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { TypePipe } from './pipes/type.pipe';
     AppRoutingModule,
     MatToolbarModule,
     MatCardModule,
+    NgChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,3 +1,4 @@
+<div class="content">
 <mat-card *ngIf="pokemon" class="pokemon">
     <img src="/assets/images/{{pokemon.id | number:'3.0'}}.png" alt="">
     <p>{{pokemon.name.japanese}}</p>
@@ -7,3 +8,11 @@
     <p>防御: {{pokemon.base.Defense}}</p>
     <p>素早さ: {{pokemon.base.Speed}}</p>
 </mat-card>
+<mat-card *ngIf="pokemon" class="chart">
+<canvas baseChart
+      [data]="radarChartData"
+      [options]="radarChartOptions"
+      [type]="radarChartType">
+</canvas>
+</mat-card>
+</div>
